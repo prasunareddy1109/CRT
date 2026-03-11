@@ -1,7 +1,7 @@
-def isUgly(self, n: int) -> bool:
-   pass
+def count_digits(n: int) -> int:
+    n=str(n)
+    return len(n)
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
-    print(isUgly(n))
+    print(count_digits(n))

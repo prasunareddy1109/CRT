@@ -1,8 +1,10 @@
-def Student_Grade_System(name:str,n1: int,n2: int,n3: int) -> str:
-   pass
+def sum_of_digits(n: int) -> int:
+    n=str(n)
+    sum=0
+    for i in n:
+        sum+=int(i)
+    return sum
 
-
-if __name__ == '__main__':
-    name = input()
-    n1,n2,n3 = list(map(int,input().split()))
-    print(Student_Grade_System(name,n1,n2,n3))
+if __name__ == "__main__":
+    n = int(input())
+    print(sum_of_digits(n))

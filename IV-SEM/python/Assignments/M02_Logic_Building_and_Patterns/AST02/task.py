@@ -1,7 +1,7 @@
-def even_odd(n: int) -> str:
-   pass
+def reverse_number(n: int) -> int:
+    n=str(n)
+    return int(n[::-1])
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
-    print(even_odd(n))
+    print(reverse_number(n))

@@ -1,11 +1,19 @@
-# Reverse a String Using Loop
+# Number Triangle Pattern
+
 
 ## Problem Statement
-Reverse a string without using slicing.
+Write a function number_triangle(n: int) -> str that returns the number pattern.
 
 ### Example
-Input: "Python"
-Output: "nohtyP"
+Input: 
+4
+
+Output: 
+1
+12
+123
+1234
+
 
 ## Instructions
 1. Write your solution in `task.py`
